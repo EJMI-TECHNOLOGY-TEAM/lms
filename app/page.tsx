@@ -17,9 +17,9 @@ export default function Home() {
           with Apostle Michael Orokpo
         </h1>
         <p className="text-lg md:text-xl mb-8">
-          This platform  designed to discard the Discipleship Platform on
+          This platform is not designed to discard the Discipleship Platform on
           the Encounter Jesus App. It is a dedicated space for structured
-          missions training and spiritual growth.
+          missions training and spiritual growth, You can access everyother information on the Encounter Jesus App but the videos and Accessment are here for you to access incase you are faced with any difficulties on the App.
         </p>
         <a
           href="/courses"
