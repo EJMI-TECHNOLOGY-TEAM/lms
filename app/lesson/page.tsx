@@ -19,6 +19,7 @@ export default function Lesson() {
               src: "https://adilo.bigcommand.com/watch/rPCu5ktT",
             },
           ],
+          assessment: "https://tinyurl.com/GMT-Course-1-Assessment",
         },
         {
           course: 2,
@@ -32,6 +33,7 @@ export default function Lesson() {
               src: "https://adilo.bigcommand.com/watch/Eb_XUksR",
             },
           ],
+          assessment: "https://tinyurl.com/GMT-Course-2-Assessment",
         },
       ],
     },
@@ -52,6 +54,7 @@ export default function Lesson() {
               src: "https://adilo.bigcommand.com/watch/WiItfQ3n",
             },
           ],
+          assessment: "https://tinyurl.com/GMT-Course-3-Assessment",
         },
         {
           course: 4,
@@ -60,15 +63,12 @@ export default function Lesson() {
               title: "THE MAKING OF A MISSIONARY (SPIRITUAL FORMATION) Part 1",
               src: "https://adilo.bigcommand.com/watch/hQyZGKss",
             },
-          ],
-        },
-         {
-          videos: [
             {
               title: "THE MAKING OF A MISSIONARY (THE FAITHFUL STEWARD) Part 2",
               src: "https://adilo.bigcommand.com/watch/Yh_JrdG9",
             },
           ],
+          assessment: "hhttps://tinyurl.com/GMT-COurse-4-Assessment",
         },
       ],
     },
@@ -79,6 +79,10 @@ export default function Lesson() {
           course: 5,
           videos: [
             {
+              title: "Living in Mission",
+              src: "https://adilo.bigcommand.com/watch/zbRtOCYn",
+            },
+            {
               title: "Holy Spirit in Missions (Part 1)",
               src: "https://adilo.bigcommand.com/watch/23dv09Dt",
             },
@@ -87,14 +91,7 @@ export default function Lesson() {
               src: "https://adilo.bigcommand.com/watch/2DPfGNzN",
             },
           ],
-        },
-        {
-          videos: [
-            {
-              title: "Living in Mission",
-              src: "https://adilo.bigcommand.com/watch/zbRtOCYn",
-            },
-          ],
+          assessment: "https://tinyurl.com/GMT-Course-5-Assessment",
         },
       ],
     },
@@ -109,6 +106,7 @@ export default function Lesson() {
               src: "https://adilo.bigcommand.com/watch/zbRtOCYnd",
             },
           ],
+          assessment: "https://tinyurl.com/GMT-Course-6-Assessment",
         },
       ],
     },
@@ -160,6 +158,23 @@ export default function Lesson() {
                         ></iframe>
                       </div>
                     ))}
+
+                    {course.assessment && (
+                      <div className="mt-4">
+                        <p className="mb-2 text-gray-700">
+                          After completing this course, please take the
+                          assessment below:
+                        </p>
+                        <a
+                          href={course.assessment}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
+                        >
+                          Take Assessment
+                        </a>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
