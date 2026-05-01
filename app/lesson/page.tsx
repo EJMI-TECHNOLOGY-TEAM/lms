@@ -21,22 +21,14 @@ export default function Lesson() {
           ],
         },
         {
-          videos: [
-            {
-              title: "The Faithful Steward",
-              src: "https://adilo.bigcommand.com/watch/Yh_JrdG9",
-            },
-          ],
-        },
-        {
           course: 2,
           videos: [
             {
-              title: "The Global Message of Missions (Part 1)",
+              title: "The Gospel Message of Missions (Part 1)",
               src: "https://adilo.bigcommand.com/watch/arZIjs52",
             },
             {
-              title: "The Global Message of Missions (Part 2)",
+              title: "The Gospel Message of Missions (Part 2)",
               src: "https://adilo.bigcommand.com/watch/Eb_XUksR",
             },
           ],
@@ -65,8 +57,16 @@ export default function Lesson() {
           course: 4,
           videos: [
             {
-              title: "THE MAKING OF A MISSIONARY (SPIRITUAL FORMATION)",
+              title: "THE MAKING OF A MISSIONARY (SPIRITUAL FORMATION) Part 1",
               src: "https://adilo.bigcommand.com/watch/hQyZGKss",
+            },
+          ],
+        },
+         {
+          videos: [
+            {
+              title: "THE MAKING OF A MISSIONARY (THE FAITHFUL STEWARD) Part 2",
+              src: "https://adilo.bigcommand.com/watch/Yh_JrdG9",
             },
           ],
         },
