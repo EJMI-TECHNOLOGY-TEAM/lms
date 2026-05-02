@@ -80,15 +80,15 @@ export default function Lesson() {
           videos: [
             {
               title: "Living in Mission",
-              src: "https://adilo.bigcommand.com/watch/zbRtOCYn",
+              src: "https://adilo.bigcommand.com/watch/HHTKuUSY",
             },
             {
               title: "Holy Spirit in Missions (Part 1)",
-              src: "https://adilo.bigcommand.com/watch/23dv09Dt",
+              src: "https://adilo.bigcommand.com/watch/dDsh7ZWs",
             },
             {
               title: "Holy Spirit in Missions (Part 2)",
-              src: "https://adilo.bigcommand.com/watch/2DPfGNzN",
+              src: "https://adilo.bigcommand.com/watch/j9oykESo",
             },
           ],
           assessment: "https://tinyurl.com/GMT-Course-5-Assessment",
@@ -103,11 +103,21 @@ export default function Lesson() {
           videos: [
             {
               title: "Understanding Missions (Local & Cross-Border Dynamics)",
-              src: "https://adilo.bigcommand.com/watch/zbRtOCYnd",
+              src: "https://adilo.bigcommand.com/watch/lbHMCbU4",
             },
           ],
           assessment: "https://tinyurl.com/GMT-Course-6-Assessment",
         },
+        {
+            course: 7,
+          videos: [
+            {
+              title: "Specialized Missions and Strategic Expressions",
+              src: "https://adilo.bigcommand.com/watch/6aOYZnRt",
+            },
+          ],
+          assessment: "https://tinyurl.com/GMT-Course-Assessment-7",
+        }
       ],
     },
   ];
